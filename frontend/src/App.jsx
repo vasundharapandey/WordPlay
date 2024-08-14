@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='text-3xl  text-pink-600'>HI hello guys</div> 
+      <div className='text-3xl  text-pink-600'>HI hello guys this is wordplay</div> 
     </>
   )
 }
