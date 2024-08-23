@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CustomSidebar from './components/CustomSidebar';
+import Profile from './pages/Profile';
+import DailyChallenge from './pages/DailyChallenge';
+import Leaderboard from './pages/Leaderboard';
 
 function App() {
-  
-
   return (
-    <>
-      <div className='text-3xl  text-pink-600'>HI hello guys this is wordplay</div> 
-    </>
-  )
+<>
+</>  );
 }
 
-export default App
+export default App;
